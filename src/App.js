@@ -10,7 +10,7 @@ const App = () => {
   let interval = useRef();
 
   const startTimer = () => {
-    const countdownDate = new Date('June 30 2022 00:00:00 ').getTime();
+    const countdownDate = new Date('June 30 2022 00:00:00').getTime();
   };
 
   interval = setInterval(() => {
